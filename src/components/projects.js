@@ -308,7 +308,7 @@ class Projects extends Component {
             <CardActions border>
               <Button colored>
                 <a
-                  href="https://www.youtube.com/channel/UC56gCKhI6Rbc5prly_rlOPQ"
+                  href="https://github.com/Arpit-Sharma-USC/MyPortFolio"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
