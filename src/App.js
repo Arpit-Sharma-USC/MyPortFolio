@@ -3,6 +3,10 @@ import "./App.css";
 import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
 import Main from "./components/main";
 import { Link } from "react-router-dom";
+import TransitionGroup from "react-transition-group/TransitionGroup";
+
+import Resume from "./components/resume";
+
 class App extends Component {
   render() {
     return (
@@ -12,6 +16,7 @@ class App extends Component {
             className="header-color"
             title={
               <Link className="title-nav" to="/">
+                {" "}
                 Home
               </Link>
             }

@@ -10,7 +10,7 @@ class LandingPage extends Component {
             <img
               className="avatar-img"
               src="https://lh3.googleusercontent.com/XXTqVbaG2N313S6RZ0yQH0l8-3-DVkCNbTxE4k-H7atkHfi5qTT3yO_elrzUBbE8E4e6ogbonotbVuF-jATwk07A8wykjsNftlfdtXRPbWu-p-dOTDD0sAlXR7Pmm6Ub2-TYmICW1YM4aaZ6KL0N4TyTEc0-Et0jHRM7COfaPr9qe8IzRpANkUew5qunt28tkZyfzhO2tyotq-4bWmGE738pZ1hDIX3hl88uEJnzyS9lxa0ItT1dqH_tFTCv1CXxrZYCoDkccCg9ZBP5x_yTnBt6GSUXNafhS72A3UYxBoQlwchf76atvI76buvLwxlOQxYrw6dKkIiK0iDHiK3exZOCYs_g3pwYaFoJrGpPYANscXzOv4EQOiCj6bhQ-PyG7IXFa37ZzPa32hD5XEAyt-quuU_0L4MqTKMvLIDc9N2yjyKITLQ31PbK-WWaXZROrsQA3c-T9v8XuWDqf9AF3uhuaJgn1zbndiCc8ux5Oh7jTOx5Hg1TCYK2jRSONidr-RvZsOl5Sauu89zJbILF91OWFsFQI4DXepVo4fvwwIeCySP_dCFFgJwIvCP7yLOn1wA-AfiSixR5WlpUPTFuCDbgFPvZHv_jZHnjwIzNICFzh4AAMV4EIR-Pm63sc_iFPORr-1k_88Y_890Th3fyZPBdqvoEN4-PoMy1Va3H7HNYqZht6Ro3GV_LdfMfTE_RQoL9fnjQIiXfQ3-Cc_o4AdGrIg=w1293-h969-no"
-              style={{ borderRadius: "40%" }}
+              style={{ borderRadius: "100%" }}
               alt="avatar"
             />
 
