@@ -19,7 +19,7 @@ class Resume extends Component {
               />
             </div>
             <h2 style={{ paddingTop: "2em" }}> Arpit Sharma</h2>
-            <h4 style={{ color: "grey" }}> Graduate Student</h4>
+            <h4 style={{ color: "grey" }}> Software Engineer</h4>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
             <p>
               Outgoing, energetic, computer science professional with a
@@ -33,13 +33,11 @@ class Resume extends Component {
             </p>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
             <h5>Address</h5>
-            <p>1225 W 37th Place, Los Angeles, CA, 90007 </p>
+            <p>1266 N Serrano Avenue #2, Los Angeles, CA, 90029 </p>
             <h5>Phone</h5>
             <p>+1-213-352-3026 </p>
             <h5>Email</h5>
-            <p>arpitsha@usc.edu </p>
-            <h5>Web</h5>
-            <p>my website </p>
+            <p>arpitshrm07@gmail.com </p>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
           </Cell>
 
@@ -51,7 +49,7 @@ class Resume extends Component {
               endYear={2019}
               schoolName={"M.S at University of Southern California"}
               schoolDescription={
-                "I Completed my Master's degree in computer science from University of Southern California."
+                "I completed my Master's degree in computer science from University of Southern California."
               }
               courses={
                 <List>
@@ -93,36 +91,75 @@ class Resume extends Component {
             <hr style={{ borderTop: "3px solid #e22947" }} />
             <h2>Experience</h2>
             <Experience
+              startYear={2019}
+              endYear={Current}
+              jobName={"Service Technologies(getservice.com): Software Engineer"}
+              jobDescription={
+                <List>
+                  <ListItem style={{ color: "white" }}>
+                    • Designed, implemented and exposed several internal and external
+                     REST APIs, leveraging AWSLambda, SQS and APIGateway 
+                     to enable functionality for third-party partners to 
+                     integrate withService, enabling multiple business 
+                     relationships raising the customer base by 20K
+                  </ListItem>
+                  <ListItem style={{ color: "white" }}>
+                    • Enabled data extraction from 5+ airlines’ email 
+                    template through rules-based parsing and supervised 
+                    machine learning to assist to Service’s complaint filing 
+                    with the corresponding airline
+                  </ListItem>
+                  <ListItem style={{ color: "white" }}>
+                    • Led the development of a user-facing feature to provide 
+                    the customers with the ability to deletetheir request to or
+                    relay a custom message to the airline complaint system; significantly
+                    increasing the flexibility provided to the users and 
+                    improving the user experience
+                  </ListItem>
+                  <ListItem style={{ color: "white" }}>
+                    • Co-Led the renovation of Service’s data analytics via an 
+                    automated ETL pipeline over Fargate to migrate data from 
+                    various databases and SaaS platforms into BigQuery using Segment API
+                  </ListItem>
+                  <ListItem>
+                    • Involved in containerization of Service’s hotel rate-drop 
+                    system and its dependencies over to anAWS EKS infrastructure 
+                    to improve the stability and uptime by 5% and cut costs by 27%
+                  </ListItem>
+                </List>
+              }
+            />
+            <Experience
               startYear={2015}
               endYear={2017}
               jobName={"Tata Consultancy Services: Software Engineer"}
               jobDescription={
                 <List>
                   <ListItem style={{ color: "white" }}>
-                    • Analyzed and worked on developing, testing, deploying and
-                    documenting of digital and account management
-                    functionalities via micro services for Lloyds Banking Group
-                    (LBG) using Java/J2EE, SQL, Apache Tomcat Server, Spring and
-                    Docker
+                    • Analyzed and Worked on developing, testing, deploying and 
+                    documenting retail functionalitiesfor Lloyds Banking Group(LBG)
                   </ListItem>
                   <ListItem style={{ color: "white" }}>
-                    • Took ownership in developing backend REST api gateway
-                    calls with spring boot and JDBC SQL queries, to allow future
-                    non-UK users to bank with LBG, each micro service build was
-                    then deployed using Docker (CaaS platforms){" "}
+                    • Led the development of REST APIs to allow integration of 
+                    existing application functionalities toallow non-UK 
+                    customers to bank with LBG increasing the customers by 15K
                   </ListItem>
                   <ListItem style={{ color: "white" }}>
-                    • Utilized Hadoop and Python scripts to clean the JSON Nosql
-                    user data and transform it to a Relational DB which was used
-                    to develop APIs to forecast credit-card eligibility of
-                    customers
+                    • Orchestrated a Python application to clean the NoSQL 
+                    user data and transform it to an ACID based data-set
+                     which was used to develop APIs to forecast credit-card 
+                     eligibility of customers
                   </ListItem>
                   <ListItem style={{ color: "white" }}>
-                    • Involved in the entire Agile development process
-                    (Programming user stories into tasks, data management,
-                    diagnose/debug technical issues, building and managing
-                    component, unit testing and other software development
-                    release activities
+                    • Took ownership in developing and exposing in-house REST 
+                    APIs leveraging ACID(SQL) data to predict credit-card 
+                    eligibility of users
+                  </ListItem>
+                  <ListItem style={{ color: "white" }}>
+                    • Involved  in  the  entire  Agile  development  flow,  
+                    training  new  engineers,  building  and  managing 
+                    application components, unit testing and other software
+                    development and release activities
                   </ListItem>
                 </List>
               }
@@ -152,15 +189,18 @@ class Resume extends Component {
 
             <h2>Skills</h2>
             <Skills skill="Java" progress={100} />
+            <Skills skill="Docker" progress={70} />
             <Skills skill="Python" progress={80} />
+            <Skills skill="ElasticSearch" progress={70} />
+            <Skills skill="Amazon Web Services" progress={70} />
             <Skills skill="C# .Net" progress={60} />
             <Skills skill="C++" progress={70} />
             <Skills skill="HTML / CSS" progress={80} />
             <Skills skill="React" progress={30} />
-            <Skills skill="Javascript" progress={60} />
+            <Skills skill="Javascript" progress={50} />
             <Skills skill="PostgreSQL" progress={90} />
             <Skills skill="MongoDB" progress={50} />
-            <Skills skill="Git" progress={60} />
+            <Skills skill="Git" progress={80} />
           </Cell>
         </Grid>
       </div>

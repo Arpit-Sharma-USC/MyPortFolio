@@ -9,15 +9,15 @@ class About extends Component {
           <h1>About Me</h1>
           <hr />
           <p>
-            Software Developer using Java, MongoDB, Redis, PostGreSQL, React,
+            Software Developer using Java Amazon Web Services, MongoDB, ElastiSearch, PostGreSQL, React,
             with an emphasis on Backend development and data science modeling
             using Python and Tensorflow. Experienced in building CRUD
             applications, Microservices, RESTful APIs using SpringBoot and
-            Maven, Machine learning models using keras, XGBoost, scikit-learn.
-            Common use of UI libraries: Bootstrap 4, React-Bootstrap, HTML CSS
+            Maven, Machine learning models using scikit-learn.
+            Common use of UI libraries: React-Bootstrap, HTML CSS
             and Javascript. Also has experience shipping VR and mobile games
             using Unity 3D, C# and Unity Networking. Posseses working knowledge
-            of MapReduce, AWS EC2-S3. <br />
+            of MapReduce, OpenCV. <br />
           </p>
         </div>
         <div className="banner-text">
@@ -41,7 +41,7 @@ class About extends Component {
             (more to come ;) ) and 5 different countries. I hope to one day
             visit atleast 100 countries across the globe.
             <br />
-            <br />I also like to game on my PC. FP Shooters, RPGs and Fifa are
+            <br />I also like to game on my Xbox. FP Shooters, RPGs and Fifa are
             among some of my favorite Genres. I can cook a variety of dishes
             from Indian, Italian, Continental cuisines. Watching and Playing
             Soccer is another of my hobbies, I play across the line as a

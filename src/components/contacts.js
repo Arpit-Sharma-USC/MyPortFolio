@@ -47,13 +47,13 @@ class Contacts extends Component {
                     style={{ fontSize: "25px", fontFamily: "Anton" }}
                   >
                     <a
-                      href="mailto:arpitsha@usc.edu?Subject=Hello%20Arpit"
+                      href="mailto:arpitshrm07@gmail.com?Subject=Hello%20Arpit"
                       rel="noopener noreferrer"
                       target="_blank"
                       style={{ textDecoration: "none", color: "black" }}
                     >
                       <i className="fa fa-envelope" aria-hidden="true" />
-                      arpitsha@usc.edu
+                      arpitshrm07@gmail.com
                     </a>
                   </ListItemContent>
                 </ListItem>

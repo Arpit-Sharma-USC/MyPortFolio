@@ -20,21 +20,24 @@ class LandingPage extends Component {
               <hr />
               <p>
                 Java : Core Java | Spring MVC | SpringBoot | RESTful <br />
-                <br /> Python: NumPy | Pandas | Scikit-learn | NLTK | Tensorflow
+                <br /> Python: Boto3 | NumPy | Pandas | Scikit-learn | NLTK 
                 <br />
                 <br />
-                Database Systems: Oracle SQL | PostgreSQL | MongoDB(NoSQL)
+                Database Systems: Oracle SQL | PostgreSQL | ElasticSearch | BigQuery | MongoDB(NoSQL)
                 <br />
                 <br />
-                Experience of C/C++ | OOPs | C# .Net | Unity3D | Git |
-                Distributed Systems
+                Cutting Edge Tech Stack: AWS(Lambda, Fargate, SQS, SNS, APIGateway, S3, Kinesis, 
+                EKS(Kubernetes), ECS, Redshift) | Firebase | Selenium APIs | Docker | Jenkins | Play 
+                <br />
+                Experience of C/C++ | OOPs | C# .Net | Unity3D | Git | JIRA |              
+                Distributed Systems | Containerization | Microservices Orchestration | Highly Scalable Systems
                 <br />
                 <br />
-                Front-End: HTML/CSS | React | JavaScript | JSON
+                Front-End: HTML/CSS | React | JavaScript 
                 <br />
                 <br />
-                Working knowledge: LINUX | AWS S3, EC2 | Redis | Kubernetes |
-                Docker
+                Working knowledge: LINUX | Redis 
+
               </p>
               <div className="social-links">
                 {/* LinkedIn
