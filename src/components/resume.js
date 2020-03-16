@@ -92,8 +92,8 @@ class Resume extends Component {
             <h2>Experience</h2>
             <Experience
               startYear={2019}
-              endYear={Current}
-              jobName={"Service Technologies(getservice.com): Software Engineer"}
+              endYear={'Current'}
+              jobName={"Service Technologies Inc: Software Engineer"}
               jobDescription={
                 <List>
                   <ListItem style={{ color: "white" }}>
@@ -121,7 +121,7 @@ class Resume extends Component {
                     automated ETL pipeline over Fargate to migrate data from 
                     various databases and SaaS platforms into BigQuery using Segment API
                   </ListItem>
-                  <ListItem>
+                  <ListItem style={{ color: "white" }}>
                     • Involved in containerization of Service’s hotel rate-drop 
                     system and its dependencies over to anAWS EKS infrastructure 
                     to improve the stability and uptime by 5% and cut costs by 27%

@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "myportfolio-66b64"
+    "default": "arpit-07",
+    "prod": "arpit-07"
   }
 }

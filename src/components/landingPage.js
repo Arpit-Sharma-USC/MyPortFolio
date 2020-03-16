@@ -26,10 +26,11 @@ class LandingPage extends Component {
                 Database Systems: Oracle SQL | PostgreSQL | ElasticSearch | BigQuery | MongoDB(NoSQL)
                 <br />
                 <br />
-                Cutting Edge Tech Stack: AWS(Lambda, Fargate, SQS, SNS, APIGateway, S3, Kinesis, 
+                Cutting Edge Tech Stack:  AWS(Lambda, Fargate, SQS, SNS, APIGateway, S3, Kinesis, <br/>
                 EKS(Kubernetes), ECS, Redshift) | Firebase | Selenium APIs | Docker | Jenkins | Play 
                 <br />
-                Experience of C/C++ | OOPs | C# .Net | Unity3D | Git | JIRA |              
+                <br/>
+                Experience of: C/C++ | OOPs | C# .Net | Unity3D | Git | JIRA | <br/>             
                 Distributed Systems | Containerization | Microservices Orchestration | Highly Scalable Systems
                 <br />
                 <br />
